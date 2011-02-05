@@ -1,1 +1,12 @@
-.DS_STORE
+.bundle
+.DS_Store
+db/*.sqlite3
+db/schema.rb
+log/*.log
+tmp/**/*
+tmp/
+*.swp
+public/ckeditor_assets
+public/system/
+config/database.yml
+public/.DS_Store
