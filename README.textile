@@ -11,6 +11,9 @@ h2. Installation
 git clone git://github.com/tiandavis/blogcast.git
 cd blogcast
 bundle install
+rake db:create
+rake db:migrate
+rake db:seed
 </pre>
 
 h2. Getting Started
