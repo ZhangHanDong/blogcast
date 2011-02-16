@@ -11,15 +11,12 @@ puts "--->God created Rails to train the faithful."
 
 user = User.new
 
-user.name = "admin"
+user.name = "administrator"
 user.initials = "a.d.min"
-user.email = "admin@localhost.host"
-user.login = "admin"
-user.password = "admin"
-user.password_confirmation = "admin"
+user.email = PRIVATE_CONFIG["email"]
+user.login = PRIVATE_CONFIG["login"]
+user.password = PRIVATE_CONFIG["password"]
+user.password_confirmation = PRIVATE_CONFIG["password"]
 user.persistence_token = "10ca7461d9331fce35b28105358bfabc95f7473949959b0c6de61dca89b95e8a94e1ca1019042ce14ca9ec279e189ad50e63c005d39d35063c4f8a27fdf074c6"
 
 user.save
-
-puts "------>Blogcast admin user created. Username: admin, Password: admin"
-puts "--->From this seed may you forever bear fruit."

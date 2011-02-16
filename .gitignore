@@ -3,10 +3,12 @@
 db/*.sqlite3
 db/schema.rb
 log/*.log
+log/development.log
 tmp/**/*
 tmp/
 *.swp
 public/ckeditor_assets
 public/system/
 config/database.yml
+config/private.yml
 public/.DS_Store
