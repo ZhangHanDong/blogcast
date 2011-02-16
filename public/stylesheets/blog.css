@@ -143,10 +143,12 @@ body {
 .header {
 	margin-bottom: 15px;
 
-	text-indent: -10000px;
-	background-color: #75D9EB;
-	font-size: 0.3em;
+/*  text-indent: -10000px;*/
+  background-color: #75D9EB;
+  font-size: 0.8em;
+	height:17px;
 }
+
 
 /*-----------------------------------------------------------
 				ADMINBAR
